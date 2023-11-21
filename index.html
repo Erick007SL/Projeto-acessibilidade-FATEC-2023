@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Portifólio Erick </title>
+</head>
+
+<body>
+    <header>
+        <a href="#" id="logo"> Erick Lima </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <input type="checkbox" id="btn" name="btn">
+        <label for="btn"></label>
+    </header>
+    <div class="container">
+        <div class="foto">
+        </div>
+        <div id="caixa">
+            <h1>
+                Olá, sou o Erick!
+                <h1>
+                    <p> Sou aluno da Fatec de Taquaritinga, este é o meu projeto para a máteria de Aessibilidade -
+                        Professor Carlos. Projeto do 3° semestre do SI de 2023.</p>
+        </div>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget({
+            rootPah: '/app',
+            personalization: 'https://vlibras.gov.br/config/default_logo.json',
+            opacity: 0.5,
+            position: 'R',
+            avatar: 'random',
+        });
+    </script>
+</body>
+
+<footer>
+
+    <h2>Fatec Taquaritinga</h2>
+</footer>
+
+<script src="script.js"></script>
+
+</html>

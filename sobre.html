@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Portifólio Erick </title>
+</head>
+
+<body>
+    <header>
+        <a href="#" id="logo"> Erick Lima </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <input type="checkbox" id="btn" name="btn">
+        <label for="btn"></label>
+    </header>
+    <div class="container">
+        <div class="resumo">
+            <h1> Resumo Pessoal </h1>
+            <span>  
+                Meu nome é Erick e tenho 19 anos de idade, resido em Taquaritinga - SP.
+                Estou cursando a faculdade de T.I pois pretendo seguir carreira nesta area, 
+                gosto de procurar e aprender coisas novas e, este é um simples projeto que estamos fazendo 
+                como exercício para a nossa matéria de Acessibilidade.
+                <div class="efeito-p"></div>
+            </span> 
+        </div>
+        <div class="resumo">
+            <h1> Resumo Acadêmico </h1>
+            <span>  
+                Atualmente estou cursando S.i ( Sistemas para Internet ) na Fatec Taquaritinga, 
+                Mas já fiz o curso técnico de D.S ( Desenvolvimento de Sistemas ) na Etec no período de 2019 a 2020,
+                terminando o meu curso terei meu diploma de tecnólogo.
+                <div class="efeito-a"></div>
+            </span> 
+        </div>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget({
+            rootPah: '/app',
+            personalization: 'https://vlibras.gov.br/config/default_logo.json',
+            opacity: 0.5,
+            position: 'R',
+            avatar: 'random',
+        });
+      </script>
+      <script src="script.js"></script>
+</body>
+
+<footer>
+     
+    <h2>Fatec Taquaritinga</h2>
+</footer>
+
+</html>
