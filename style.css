@@ -203,3 +203,7 @@ body.clean label {
 input {
     visibility: hidden;
 }
+button {
+    width: 30px;
+    height: 30px;
+}
